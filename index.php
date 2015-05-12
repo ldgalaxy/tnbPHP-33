@@ -1,6 +1,6 @@
 <?php
 
-$user_ip = $_SERVER['REMOTE_ADDR'];
+$user_ip = gethostbyname('localhost');
 
 function echo_ip(){
    global $user_ip; 
